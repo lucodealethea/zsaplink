@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Mike Schernbeck: SAPLink Plugin for BW Hierarchies</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>EXTRACT_TABLE_ELEM_FROM_IXML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>extract table-type data from iXML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>EXTR_HIERARCHY_CAT_FROM_IXML</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>extract hierarchy catatog entry from iXML (nugget/slinkee)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>GET_HIERARCHY_TAB_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>determine name of hierarchy table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>GET_IOBJ_OF_HIERARCHY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>determine InfoObject, where hierarchy is based on</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>GET_SAPLINK_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>provide hierarchy information to be stored in nugget/slinkee</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>HIERARCHY_AUTH_CHECK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>authority check for BI hierarchy activity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>HIERARCHY_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal hierarchy ID (unique ID)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>HIERARCHY_VERSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Hierarchy version</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>IMPORT_HIERARCHY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>create / update hierarchy</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>INFOOBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>InfoObject</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZSAPLINK_BW_HIERARCHY</CLSNAME>
+     <CMPNAME>PUSH_TABLE_TO_IXML_ELEM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>push table-type data into iXML</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
