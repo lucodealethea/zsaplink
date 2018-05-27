@@ -24,16 +24,16 @@ CLASS ZCX_SAPLINK DEFINITION
   .
 public section.
 
-  constants ERROR_MESSAGE type SOTR_CONC value '005056A7624D1ED6908BB83135080B54' .
-  constants EXISTING type SOTR_CONC value '005056A7624D1ED6908BB83135082B54' .
-  constants INCORRECT_FILE_FORMAT type SOTR_CONC value '005056A7624D1ED6908BB83135084B54' .
-  constants LOCKED type SOTR_CONC value '005056A7624D1ED6908BB83135086B54' .
+  constants ERROR_MESSAGE type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568CFB8BD' .
+  constants EXISTING type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568CFD8BD' .
+  constants INCORRECT_FILE_FORMAT type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568CFF8BD' .
+  constants LOCKED type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D018BD' .
   data MSG type STRING value '44F7518323DB08BC02000000A7E42BB6' .
-  constants NOT_AUTHORIZED type SOTR_CONC value '005056A7624D1ED6908BB83135088B54' .
-  constants NOT_FOUND type SOTR_CONC value '005056A7624D1ED6908BB8313508AB54' .
-  constants NO_PLUGIN type SOTR_CONC value '005056A7624D1ED6908BB8313508CB54' .
-  constants SYSTEM_ERROR type SOTR_CONC value '005056A7624D1ED6908BB8313508EB54' .
-  constants ZCX_SAPLINK type SOTR_CONC value '005056A7624D1ED6908BB83135090B54' .
+  constants NOT_AUTHORIZED type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D038BD' .
+  constants NOT_FOUND type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D058BD' .
+  constants NO_PLUGIN type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D078BD' .
+  constants SYSTEM_ERROR type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D098BD' .
+  constants ZCX_SAPLINK type SOTR_CONC value '525400DAE3ED1ED88BA2D5F568D0B8BD' .
   data OBJECT type STRING .
 
   methods CONSTRUCTOR
@@ -3369,7 +3369,7 @@ CLASS ZSAPLINK_CLASS IMPLEMENTATION.
 *       seems that if a textpool is inserted as inactive for language
 *       other than the logon language, it is lost upon activation
 *       not sure inserting as active is best solution,but seems to work
-*       Stefan Schm\F6cker:  Looks like this does not trigger on logon- " ins #255
+*       Stefan Schmöcker:  Looks like this does not trigger on logon- " ins #255
 *                          but on class original language             " ins #255
           _state = 'A'.
         endif.
@@ -5872,4 +5872,4 @@ FORM writemessage USING value(p_type) TYPE sy-msgty
   ENDCASE.
 
   WRITE p_msg.
-ENDFORM.
+ENDFORM.                    "WriteMessage

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZSAPLINK_STEAMROLLER</NAME>
+    <STATE>A</STATE>
+    <VARCL>X</VARCL>
+    <SUBC>1</SUBC>
+    <RLOAD>E</RLOAD>
+    <FIXPT>X</FIXPT>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>MAN</KEY>
+     <ENTRY>Flattener</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>This program will convert global call to local into one flat program</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>FLTPRG</KEY>
+     <ENTRY>Target Program</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>OVERWR</KEY>
+     <ENTRY>Overwrite Existing Target</ENTRY>
+     <LENGTH>33</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>PROG</KEY>
+     <ENTRY>Original Program</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>SO_CLAS</KEY>
+     <ENTRY>Classes to steamroll</ENTRY>
+     <LENGTH>28</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
